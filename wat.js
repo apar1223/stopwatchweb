@@ -83,7 +83,8 @@ lapbtn.addEventListener("click",lap)
 
 function lap()
 {
-    lapNow = `<div class="lap" style="background-color:#b5abd1;border-radius:13px">${hours} : ${mins} : ${secs} : ${milis}</div><hr>`;
+    
+    lapNow = `<div class="lap" style="background-color:#028090;font-family:montserrat;border-radius:13px">${hours} : ${mins} : ${secs} : ${milis}</div><hr>`;
     rau.innerHTML += lapNow;
   
 } 
